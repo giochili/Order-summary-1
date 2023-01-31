@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
+}
+body {
+  height: 100vh;
+  background-color: #e0e8ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.desktop-backgroud-img {
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+.main-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+  border-radius: 20px;
+  width: 327px;
+}
+.illustration-hero {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 100%;
+}
+
+.content-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 24px;
+}
+.header {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 29px;
+  text-align: center;
+  margin-bottom: 16px;
+  color: #1f2e55;
+  padding: 0 8px;
+}
+.paragraph {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #717fa6;
+  padding: 0 8px;
+  margin-bottom: 24px;
+}
+.music-description {
+  background: #f7f9ff;
+  border-radius: 11px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 17px 16px 16px 16px;
+  margin-bottom: 24px;
+}
+.name-price-container {
+  margin-right: 19.35px;
+}
+.name {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #1f2e55;
+}
+.price {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  color: #717fa6;
+}
+.change {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 17px;
+  color: #382ae1;
+  cursor: pointer;
+}
+.change:hover {
+  color: #766cf1;
+  text-decoration: none;
+}
+
+/* buttons */
+.payment-btn {
+  border: none;
+  background: #382ae1;
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+  border-radius: 11px;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 20px;
+  padding: 15px 65px 15px 64px;
+  margin-bottom: 24px;
+  width: 100%;
+  cursor: pointer;
+}
+.payment-btn:hover {
+  background: #766cf1;
+}
+.cancel-btn {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 20px;
+  color: #717fa6;
+  cursor: pointer;
+}
+.cancel-btn:hover {
+  color: #1f2e55;
+}
+@media screen and (min-width: 320px) {
+  .desktop-backgroud-img {
+    height: 194px;
+    top: 0%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .main-container {
+    width: 450px;
+  }
+  .content-container {
+    padding: 45px 48px 48px 48px;
+  }
+  .header {
+    font-size: 28px;
+    line-height: 37px;
+    padding: 0;
+  }
+  .paragraph {
+    font-size: 16px;
+    line-height: 26px;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  .music-description {
+    padding: 25px 24px;
+  }
+  .name {
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .price {
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .desktop-backgroud-img {
+    height: 437px;
+    top: 0%;
+  }
+}
